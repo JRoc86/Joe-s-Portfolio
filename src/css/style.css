@@ -1,11 +1,88 @@
-.navbar {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.main-header {
+	background-color: #292c2f;
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+	padding: 20px 40px;
+	height: 80px;
+	box-sizing: border-box;
+}
 
+.main-header #header {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}	
+#header img {
+	background: black url (/images/bridge.jpg) center no-repeat;
+	max-width: 1200px
+	height: 200px;
 }
-.navbar li {
+
+/* Logo */
+
+.main-header #header h1 {
+	float: left;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+.main-header #header h1 span {
+	color: #5383d3;
+}
+
+/* The header links */
+
+.main-header #header a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.main-header #header nav{
+	font:16px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: right;
+	
+}
+
+.main-header #header nav a{
 	display: inline-block;
-	width: 60px;
-	background-color: #D3D3D3;
+	padding: 0 5px;
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 16px;
+	opacity: 0.9;
 }
+
+
+
+.main-header .header nav a.selected {
+	color: #608bd2; 	
+	pointer-events: none;
+	opacity: 1;
+}
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+
+	.header-basic {
+		padding: 20px 0;
+		height: 75px;
+	}
+
+	.header-basic .header-limiter h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-basic .header-limiter nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header-basic .header-limiter nav a {
+		font-size: 13px;
+	}
