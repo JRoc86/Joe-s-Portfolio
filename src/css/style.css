@@ -6,12 +6,12 @@
 	box-sizing: border-box;
 }
 
-.main-header #header {
+.main-header .header {
 	max-width: 1200px;
 	text-align: center;
 	margin: 0 auto;
 }	
-#header img {
+.main-header .header img {
 	background: black url (/images/bridge.jpg) center no-repeat;
 	max-width: 1200px
 	height: 200px;
@@ -19,32 +19,32 @@
 
 /* Logo */
 
-.main-header #header h1 {
+.main-header .header h1 {
 	float: left;
 	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
 	line-height: 40px;
 	margin: 0;
 }
 
-.main-header #header h1 span {
+.main-header .header h1 span {
 	color: #5383d3;
 }
 
 /* The header links */
 
-.main-header #header a {
+.main-header .header a {
 	color: #ffffff;
 	text-decoration: none;
 }
 
-.main-header #header nav{
+.main-header .header nav{
 	font:16px Arial, Helvetica, sans-serif;
 	line-height: 40px;
 	float: right;
 	
 }
 
-.main-header #header nav a{
+.main-header .header nav a{
 	display: inline-block;
 	padding: 0 5px;
 	text-decoration:none;
