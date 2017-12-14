@@ -12,7 +12,7 @@
 }
 
 
-#header img {
+.header img {
 	background: url("/images/bridge.jpg") center no-repeat;
 	max-width: 1200px
 	height: 200px;
@@ -29,13 +29,12 @@
 
 }
 
-.main-header .main-heading a {
-		text-decoration: none;
-
+.main-heading a {
+	text-decoration: none;
 
 }
 
-.main-header  .main-heading span {
+.main-heading span {
 	padding-left: 20px;
 	color: #5383d3;
 	text-decoration: none;
@@ -88,8 +87,10 @@
 }
 
 .bridge {
-		height: 200px
-		width: 1200px;
+	background: url("../img/bridge.jpg") no-repeat 0 0 transparent;	
+	background-size: 100% 100%;	
+	height: 500px;
+	width: 100%;
 		
 	}
 
