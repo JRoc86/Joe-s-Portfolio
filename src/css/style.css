@@ -12,7 +12,7 @@
 	margin: 0 auto;
 }	
 #header img {
-	background: black url (/images/bridge.jpg) center no-repeat;
+	background: url("/images/bridge.jpg") center no-repeat;
 	max-width: 1200px
 	height: 200px;
 }
