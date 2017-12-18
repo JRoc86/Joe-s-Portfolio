@@ -1,20 +1,28 @@
 /* About Page specific styles */
 
 .page-about {
+	background-image: url("../img/SF-closeup.jpg");
+	background-size: cover;
+	font-family: arial, sans-serif;
+	color: #f1f1f1;
 	
+
 }
 
 .aboutme {
-	text-align: center;
-	font-size: 80px;
-	margin: 40px;
-	padding: 20px;
+	text-align: left;
+	font-size: 30px;
+	
 }
 
+
 .selfie {
-	border-radius: 50%;
-	display: block;
-	width: 200px;
+	width: 250px;
 	padding: 10px;
 	margin: 50px auto 20px;
+}
+
+.p {
+	width: 250px;
+	margin-right: 650px;
 }
