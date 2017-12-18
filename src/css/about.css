@@ -13,10 +13,8 @@
 
 .selfie {
 	border-radius: 50%;
+	display: block;
 	width: 200px;
-	height: 250px
 	padding: 10px;
-	margin-left: 550px;
-	margin-top: 50px;
-	
-}	
+	margin: 50px auto 20px;
+}

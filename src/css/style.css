@@ -89,6 +89,14 @@
 }
 
 
+/* Section Content styles */
+
+.section-content {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
 /* Making the header responsive */
 
 @media all and (max-width: 600px) {
