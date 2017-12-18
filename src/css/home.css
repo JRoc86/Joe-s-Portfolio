@@ -3,3 +3,26 @@
 .page-home {
 	
 }
+
+.bridge {
+	background: url("../img/bridge.jpg") no-repeat 0 0 transparent;	
+	background-size: 100% 100%;	
+	height: 500px;
+	width: 100%;
+	
+}
+
+.intro-text {
+	text-align: center;
+	margin: 150px;
+	font-size: 80px;
+	font-family: helvetica, arial-back, sans-serif;
+}
+
+.description {
+	text-align: center;
+	margin: 150px;
+	font-size: 80px;
+	font-family: helvetica, arial-back, sans-serif;
+}
+

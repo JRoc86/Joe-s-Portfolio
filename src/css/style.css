@@ -4,12 +4,13 @@
 	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
 	padding: 20px 40px;
 	height: 80px;
-	box-sizing: border-box;	
-
+	box-sizing: border-box;
+	
 }
 
 .main-header a:visited {
 	color: #ccc;
+
 }
 
 
@@ -87,24 +88,17 @@
 	opacity: 1;
 }
 
-.bridge {
-	background: url("../img/bridge.jpg") no-repeat 0 0 transparent;	
-	background-size: 100% 100%;	
-	height: 500px;
-	width: 100%;
-		
-	}
 
 /* Making the header responsive */
 
 @media all and (max-width: 600px) {
 
-	.header-basic {
+	.main-header {
 		padding: 20px 0;
 		height: 75px;
 	}
 
-	.header-basic .header-limiter h1 {
+	.main-header .main-heading h1 {
 		float: none;
 		margin: -8px 0 10px;
 		text-align: center;
@@ -112,12 +106,12 @@
 		line-height: 1;
 	}
 
-	.header-basic .header-limiter nav {
+	.main-header .main-heading nav {
 		line-height: 1;
 		float:none;
 	}
 
-	.header-basic .header-limiter nav a {
+	.main-header .main-heading nav a {
 		font-size: 13px;
 	}
 
