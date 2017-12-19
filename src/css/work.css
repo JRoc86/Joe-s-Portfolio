@@ -7,8 +7,14 @@
 	color: #f1f1f1;
 }
 
-.section-content {
-	box-sizing: content-box;
-	background-color: #000000; 
-	opacity: 0.6;
+.page-work:before {
+	background: rgba(0, 0, 0, 0.45);
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
 }
