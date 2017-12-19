@@ -125,7 +125,6 @@ h6 {
 
 .main-header nav a.selected {
 	color: #608bd2; 	
-	pointer-events: none;
 	opacity: 1;
 }
 
@@ -163,5 +162,3 @@ h6 {
 	.main-header .main-heading nav a {
 		font-size: 13px;
 	}
-
-	
