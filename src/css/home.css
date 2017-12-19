@@ -1,34 +1,30 @@
 /* Home Page specific styles */
 
-.page-home p {
-	text-align: left;
-	margin-left: 200px;
+.page-home {
+	background: url('../img/SF-far.jpg') no-repeat scroll 0 0 transparent;
+	background-size: cover;
+	height: 100vh;
 }
 
-.bridge {
-	background: url("../img/bridge.jpg") no-repeat 0 0 transparent;	
-	background-size: 100% 100%;	
-	height: 500px;
+.page-home:after {
+	background: rgba(0,0,0,0.15);
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
 	width: 100%;
-	
+	height: 100%;
+	z-index: 1;
 }
 
 .intro-text {
+	margin-top: 120px;
 	text-align: center;
-	margin: 150px;
-	font-size: 80px;
-	font-family: helvetica, arial-back, sans-serif;
-	color: #696969;
+	font-size: 30px;
 }
 
 .description {
 	text-align: center;
-	margin: 150px;
-	font-size: 80px;
-	font-family: helvetica, arial-back, sans-serif;
-	color: #696969;
-}
-
-p {
-	color: #696969;
+	font-size: 30px;
 }
