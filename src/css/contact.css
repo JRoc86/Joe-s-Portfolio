@@ -1,5 +1,39 @@
 /* Contact Page specific styles */
 
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+p {
+	color: #e3e3e3;
+	font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #efefef;
+}
+
+.h2-heading {
+	font-size: 20px;
+}
+
+.h3-heading {
+	font-size: 18px;
+}
+
 
 .legal {
 	font-size: 10px;
@@ -96,3 +130,22 @@
 	background-color: #a0a0a0;
 	cursor: pointer;
 }
+
+
+.main-header .main-heading nav {
+		line-height: 1;
+		float:none;
+	}
+	
+	.main-header .main-heading h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.main-header {
+		padding: 20px 0;
+		height: 75px;
+	}

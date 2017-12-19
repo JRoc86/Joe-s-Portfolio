@@ -1,8 +1,14 @@
 /* Work Page specific styles */
 
 .page-work {
-	background: url("../img/mountain.jpg");
+	background: url("../img/TowerBridge.jpg");
 	background-size: cover;
 	font-family: arial, helvetics, sans-serif;
 	color: #f1f1f1;
+}
+
+.section-content {
+	box-sizing: content-box;
+	background-color: #000000; 
+	opacity: 0.6;
 }
