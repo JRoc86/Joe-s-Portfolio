@@ -1,5 +1,8 @@
 /* Work Page specific styles */
 
 .page-work {
-	
+	background: url("../img/baybridge.jpg");
+	background-size: cover;
+	font-family: arial, sans-serif;
+	color: #f1f1f1;
 }
